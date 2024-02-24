@@ -1,0 +1,985 @@
+{
+	"info": {
+		"_postman_id": "7f107f64-619c-40d2-a6eb-2c49b110d9db",
+		"name": "mentes_notaveis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "13681762",
+		"_collection_link": "https://www.postman.com/lucasbeltrame/workspace/lucas-beltrame-s-public-workspace/collection/13681762-7f107f64-619c-40d2-a6eb-2c49b110d9db?action=share&source=collection_link&creator=13681762"
+	},
+	"item": [
+		{
+			"name": "laravel",
+			"item": [
+				{
+					"name": "User",
+					"item": [
+						{
+							"name": "getAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/user"
+							},
+							"response": []
+						},
+						{
+							"name": "getById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/user/2"
+							},
+							"response": []
+						},
+						{
+							"name": "create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Lucas teste dois",
+											"type": "text"
+										},
+										{
+											"key": "email",
+											"value": "lucaasa@gmail.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "aaaaaaaa",
+											"type": "text"
+										},
+										{
+											"key": "city_id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "adress_name",
+											"value": "Rua isso ae",
+											"type": "text"
+										},
+										{
+											"key": "number",
+											"value": "123",
+											"type": "text"
+										},
+										{
+											"key": "neighborhood",
+											"value": "bairro aqui",
+											"type": "text"
+										}
+									]
+								},
+								"url": "http://127.0.0.1:8000/api/user"
+							},
+							"response": []
+						},
+						{
+							"name": "update",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "Lucas mudou",
+											"type": "text"
+										},
+										{
+											"key": "email",
+											"value": "lucas@gmail.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "aaaaaaaa",
+											"type": "text"
+										},
+										{
+											"key": "city_id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "adress_name",
+											"value": "Rua nova de novo",
+											"type": "text"
+										},
+										{
+											"key": "number",
+											"value": "123",
+											"type": "text"
+										},
+										{
+											"key": "neighborhood",
+											"value": "bairro aqui",
+											"type": "text"
+										}
+									]
+								},
+								"url": "http://127.0.0.1:8000/api/user/5"
+							},
+							"response": []
+						},
+						{
+							"name": "delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/user/1"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "State",
+					"item": [
+						{
+							"name": "getAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/states"
+							},
+							"response": []
+						},
+						{
+							"name": "getById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/states/11"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "City",
+					"item": [
+						{
+							"name": "getAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/cities"
+							},
+							"response": []
+						},
+						{
+							"name": "getById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/cities/2243"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Region",
+					"item": [
+						{
+							"name": "getAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/region"
+							},
+							"response": []
+						},
+						{
+							"name": "getById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/region/4"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Adress",
+					"item": [
+						{
+							"name": "getAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/adress"
+							},
+							"response": []
+						},
+						{
+							"name": "getById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:8000/api/adress/6"
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "php_puro",
+			"item": [
+				{
+					"name": "Users",
+					"item": [
+						{
+							"name": "getAll",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=user&f=getAll",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "user"
+										},
+										{
+											"key": "f",
+											"value": "getAll"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getById",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=user&f=getById&id=1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "user"
+										},
+										{
+											"key": "f",
+											"value": "getById"
+										},
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "show",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=user&f=show&id=5",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "user"
+										},
+										{
+											"key": "f",
+											"value": "show"
+										},
+										{
+											"key": "id",
+											"value": "5"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Daniel Novoaa",
+											"type": "text"
+										},
+										{
+											"key": "email",
+											"value": "daniaael@gmail.coma",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "bbb",
+											"type": "text"
+										},
+										{
+											"key": "city_id",
+											"value": "3",
+											"type": "text"
+										},
+										{
+											"key": "adress_name",
+											"value": "Rua nova garoto",
+											"type": "text"
+										},
+										{
+											"key": "number",
+											"value": "456",
+											"type": "text"
+										},
+										{
+											"key": "neighborhood",
+											"value": "Novo bairro",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=user&f=store",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "user"
+										},
+										{
+											"key": "f",
+											"value": "store"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Daniel Pronto",
+											"type": "text"
+										},
+										{
+											"key": "email",
+											"value": "daniel@gmail.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "bbb",
+											"type": "text"
+										},
+										{
+											"key": "city_id",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "adress_name",
+											"value": "Rua nova garoto",
+											"type": "text"
+										},
+										{
+											"key": "number",
+											"value": "456",
+											"type": "text"
+										},
+										{
+											"key": "neighborhood",
+											"value": "Novo bairro",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=user&f=update&id=10",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "user"
+										},
+										{
+											"key": "f",
+											"value": "update"
+										},
+										{
+											"key": "id",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Daniel Fim",
+											"type": "text"
+										},
+										{
+											"key": "email",
+											"value": "daniel@gmail.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "bbb",
+											"type": "text"
+										},
+										{
+											"key": "city_id",
+											"value": "3",
+											"type": "text"
+										},
+										{
+											"key": "adress_name",
+											"value": "Rua nova garoto",
+											"type": "text"
+										},
+										{
+											"key": "number",
+											"value": "456",
+											"type": "text"
+										},
+										{
+											"key": "neighborhood",
+											"value": "Novo bairro",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=user&f=delete&id=11",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "user"
+										},
+										{
+											"key": "f",
+											"value": "delete"
+										},
+										{
+											"key": "id",
+											"value": "11"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Adress",
+					"item": [
+						{
+							"name": "getAll",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=adress&f=getAll",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "adress"
+										},
+										{
+											"key": "f",
+											"value": "getAll"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getById",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=adress&f=getById&id=1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "adress"
+										},
+										{
+											"key": "f",
+											"value": "getById"
+										},
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Cities",
+					"item": [
+						{
+							"name": "getAll",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=cities&f=getAll",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "cities"
+										},
+										{
+											"key": "f",
+											"value": "getAll"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getById",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=cities&f=getById&id=1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "cities"
+										},
+										{
+											"key": "f",
+											"value": "getById"
+										},
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "States",
+					"item": [
+						{
+							"name": "getAll",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=states&f=getAll",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "states"
+										},
+										{
+											"key": "f",
+											"value": "getAll"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getById",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=states&f=getById&id=1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "states"
+										},
+										{
+											"key": "f",
+											"value": "getById"
+										},
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Region",
+					"item": [
+						{
+							"name": "getAll",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=region&f=getAll",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "region"
+										},
+										{
+											"key": "f",
+											"value": "getAll"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getById",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=region&f=getById&id=1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "region"
+										},
+										{
+											"key": "f",
+											"value": "getById"
+										},
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Database",
+					"item": [
+						{
+							"name": "migrate",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=database&f=migrate",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "database"
+										},
+										{
+											"key": "f",
+											"value": "migrate"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "seeder",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost/mentes_notaveis/pure_php/?c=database&f=seeder",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"mentes_notaveis",
+										"pure_php",
+										""
+									],
+									"query": [
+										{
+											"key": "c",
+											"value": "database"
+										},
+										{
+											"key": "f",
+											"value": "seeder"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

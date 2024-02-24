@@ -1,0 +1,29 @@
+
+body {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.stove {
+    padding: 0.5em;
+}
+
+.p-01em {
+    padding: 0.1em;
+}
+
+.off {
+    background-color: darkblue;
+    margin: 0.2em;
+    text-align: center;
+    color:aliceblue;
+}
+
+.on {
+    background-color: darkorange;
+    margin: 0.2em;
+    text-align: center;
+    color: brown;
+}
